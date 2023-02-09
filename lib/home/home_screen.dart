@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: true,
         actions: [
-          GestureDetector(
+          GestureDetector(  // GestureDecector vs InkWell
             child: Icon(Icons.add_circle_outline,size: 35),
             onTap: () {
               // ontap pachhi () == press mate  {} == condition mate
